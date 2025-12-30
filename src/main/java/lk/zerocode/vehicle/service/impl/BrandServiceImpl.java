@@ -20,6 +20,6 @@ public class BrandServiceImpl implements BrandService {
 
         brandRepository.save(brand);
 
-        System.out.println("");
+        
     }
 }
