@@ -15,7 +15,7 @@ public class Type {
     private String name;
 
 
-    @OneToMany(mappedBy = "type")
-    private List<Model>models;
+//    @OneToMany(mappedBy = "type")
+//    private List<Model>models;
 
 }

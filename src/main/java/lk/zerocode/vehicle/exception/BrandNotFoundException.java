@@ -1,7 +1,7 @@
 package lk.zerocode.vehicle.exception;
 
-public class BrandNotFound extends Exception {
-    public BrandNotFound(String message) {
+public class BrandNotFoundException extends Exception {
+    public BrandNotFoundException(String message) {
         super(message);
     }
 }

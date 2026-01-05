@@ -1,16 +1,11 @@
-package lk.zerocode.vehicle.controller.request;
+package lk.zerocode.vehicle.controller.response;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
 @NoArgsConstructor
-public class BrandRequest {
-
+public class BrandResponse {
     private Long id;
     private String name;
-
-
-
 }

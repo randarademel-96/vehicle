@@ -20,6 +20,6 @@ public class Model {
     @ManyToOne
     private Type type;
 
-    @OneToMany(mappedBy = "model")
-    private List<Vehicle>vehicles;
+//    @OneToMany(mappedBy = "model")
+//    private List<Vehicle>vehicles;
 }
